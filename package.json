@@ -1,0 +1,39 @@
+{
+  "name": "vite-vue2-example",
+  "version": "1.0.0",
+  "description": "Example project for a Vue 2 SPA using Vite and composition API",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint './src//**/*.{js,ts,tsx,vue,md}'",
+    "lint:fix": "eslint './src//**/*.{js,ts,tsx,vue,md}' --fix"
+  },
+  "dependencies": {
+    "@vue/composition-api": "1.0.0-rc.2",
+    "@vueuse/core": "4.2.2",
+    "core-js": "3.9.0",
+    "typescript": "4.1.5",
+    "vue": "2.6.12"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "4.15.2",
+    "@typescript-eslint/parser": "4.15.2",
+    "@vue/eslint-config-prettier": "6.0.0",
+    "@vue/eslint-config-typescript": "7.0.0",
+    "eslint": "7.20.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "7.6.0",
+    "prettier": "2.2.1",
+    "vite": "2.0.2",
+    "vite-plugin-components": "0.7.1",
+    "vite-plugin-vue2": "1.2.1",
+    "vite-plugin-windicss": "0.4.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lstoeferle/vite-vue2-example.git"
+  },
+  "author": "lstoeferle",
+  "license": "MIT"
+}
