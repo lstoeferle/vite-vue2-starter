@@ -1,8 +1,6 @@
 import Vue from "vue";
 import App from "@/App.vue";
-import VueCompositionApi, { createApp, h } from "@vue/composition-api";
-
-Vue.use(VueCompositionApi);
+import { createApp, h } from "vue-demi";
 
 import "windi.css";
 

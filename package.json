@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint './src//**/*.{js,ts,tsx,vue,md}'",
-    "lint:fix": "eslint './src//**/*.{js,ts,tsx,vue,md}' --fix"
+    "lint": "eslint './src/**/*.{js,ts,tsx,vue,md}'",
+    "lint:fix": "eslint './src/**/*.{js,ts,tsx,vue,md}' --fix"
   },
   "dependencies": {
     "@vue/composition-api": "1.0.0-rc.2",

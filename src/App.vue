@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "@vue/composition-api";
+import { defineComponent } from "vue-demi";
 import { useTimestamp } from "@vueuse/core";
 
 export default defineComponent({
