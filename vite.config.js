@@ -9,6 +9,7 @@ const config = defineConfig({
     alias: {
       "@": `${path.resolve(__dirname, "src")}`,
     },
+    dedupe: ["vue-demi"],
   },
 
   build: {
