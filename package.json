@@ -14,7 +14,8 @@
     "@vueuse/core": "4.2.2",
     "core-js": "3.9.0",
     "typescript": "4.1.5",
-    "vue": "2.6.12"
+    "vue": "2.6.12",
+    "vue-router": "3.5.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "4.15.2",
