@@ -13,7 +13,7 @@
     "@vue/composition-api": "1.0.0-rc.2",
     "@vueuse/core": "4.2.2",
     "core-js": "3.9.0",
-    "typescript": "4.1.5",
+    "typescript": "4.2.2",
     "vue": "2.6.12",
     "vue-router": "3.5.1"
   },
@@ -26,10 +26,10 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "7.6.0",
     "prettier": "2.2.1",
-    "vite": "2.0.2",
-    "vite-plugin-components": "0.7.1",
+    "vite": "2.0.3",
+    "vite-plugin-components": "0.7.3",
     "vite-plugin-vue2": "1.2.1",
-    "vite-plugin-windicss": "0.4.11"
+    "vite-plugin-windicss": "0.5.4"
   },
   "repository": {
     "type": "git",
