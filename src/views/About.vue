@@ -9,7 +9,7 @@
           This starter template will help you to easily create a Vue2
           application bundled by the lightning fast build tool called Vite.
           Besides Vite this template also provides typescript support,
-          TailwindCSS, vue-router and the vue composition-api for Vue2.
+          TailwindCSS, vue-router, vueuse and the vue composition-api for Vue2.
         </p>
         <div class="flex justify-center">
           <a

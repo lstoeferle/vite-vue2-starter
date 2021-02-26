@@ -6,6 +6,7 @@ This starter template will help you to easily create a Vue2 application bundled 
 * Typescript support
 * Vue Router
 * Vue Composition-API
+* VueUse
 * WindiCSS (TailwindCSS) + Dark Mode
 
 ## :package: Vite plugins
