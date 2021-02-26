@@ -1,6 +1,6 @@
 <template>
   <section
-    class="text-gray-600 body-fontcontainer mx-auto flex py-12 md:flex-row flex-col items-center"
+    class="text-gray-600 body-font container mx-auto flex py-12 md:flex-row flex-col items-center px-5"
   >
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
       <img
