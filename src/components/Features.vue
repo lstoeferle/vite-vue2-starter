@@ -35,6 +35,13 @@
           url="https://github.com/windicss/vite-plugin-windicss"
         />
       </div>
+      <div class="w-full py-4 pl-4 xs:pr-4 md:w-1/3">
+        <Feature
+          title="vite-plugin-icons"
+          text="Access thousands of icons as Vue components in Vite"
+          url="https://github.com/antfu/vite-plugin-icons"
+        />
+      </div>
     </div>
   </section>
 </template>

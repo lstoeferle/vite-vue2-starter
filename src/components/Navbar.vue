@@ -33,22 +33,21 @@
           class="flex items-center justify-center mr-2 text-black w-9 h-9 dark:text-white"
           to="/aliens"
         >
-          <IconAlien />
+          <mdi-alien />
         </router-link>
         <a
           href="https://github.com/lstoeferle/vite-vue2-windicss-starter"
           target="_blank"
           class="flex items-center justify-center mr-2 text-black w-9 h-9 dark:text-white"
         >
-          <IconGithub />
+          <mdi-github />
         </a>
         <button
           @click="toggle"
           class="flex items-center justify-center w-9 h-9 focus:outline-none"
-          :class="{ 'text-yellow-500': isDark, 'text-gray-800': !isDark }"
         >
-          <IconSun v-if="isDark" />
-          <IconMoon v-else />
+          <mdi-white-balance-sunny class="text-yellow-500" v-if="isDark" />
+          <mdi-moon-waning-crescent class="text-gray-800" v-else />
         </button>
       </nav>
       <div></div>
