@@ -17,6 +17,8 @@ This starter template will help you to easily create a Vue2 application bundled 
   On demand components auto importing for Vite
 * [`vite-plugin-windicss`](https://github.com/windicss/vite-plugin-windicss) -
   WindiCSS/TailwindCSS for Vite
+* [`vite-plugin-icoms`](https://github.com/antfu/vite-plugin-icons) -  
+  Access thousands of icons as Vue components in Vite 
 
 ## :rocket: Getting started
 
