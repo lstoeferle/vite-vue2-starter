@@ -3,7 +3,7 @@
     <div
       class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row"
     >
-      <router-link
+      <RouterLink
         :to="{ name: 'Home' }"
         class="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0"
       >
@@ -11,11 +11,11 @@
         <span class="ml-3 text-xl dark:text-white">
           {{ appName }}
         </span>
-      </router-link>
+      </RouterLink>
       <nav
         class="flex flex-wrap items-center justify-center text-base md:ml-auto"
       >
-        <router-link
+        <RouterLink
           v-for="(route, index) in routes"
           :key="index"
           class="mr-5 font-semibold cursor-pointer"
@@ -28,29 +28,28 @@
           :to="{ name: route.name }"
         >
           {{ route.name }}
-        </router-link>
-        <router-link
+        </RouterLink>
+        <RouterLink
           class="flex items-center justify-center mr-2 text-black w-9 h-9 dark:text-white"
           to="/aliens"
         >
-          <mdi-alien />
-        </router-link>
+          <MdiAlien />
+        </RouterLink>
         <a
           href="https://github.com/lstoeferle/vite-vue2-windicss-starter"
           target="_blank"
           class="flex items-center justify-center mr-2 text-black w-9 h-9 dark:text-white"
         >
-          <mdi-github />
+          <MdiGithub />
         </a>
         <button
           @click="toggle"
           class="flex items-center justify-center w-9 h-9 focus:outline-none"
         >
-          <mdi-white-balance-sunny class="text-yellow-500" v-if="isDark" />
-          <mdi-moon-waning-crescent class="text-gray-800" v-else />
+          <MdiWhiteBalanceSunny class="text-yellow-500" v-if="isDark" />
+          <MdiMoonWaningCrescent class="text-gray-800" v-else />
         </button>
       </nav>
-      <div></div>
     </div>
   </header>
 </template>

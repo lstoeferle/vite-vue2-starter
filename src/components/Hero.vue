@@ -22,9 +22,9 @@
           <ButtonPrimary> Vue docs </ButtonPrimary>
         </a>
 
-        <router-link :to="{ name: 'About' }">
+        <RouterLink :to="{ name: 'About' }">
           <ButtonSecondary> About </ButtonSecondary>
-        </router-link>
+        </RouterLink>
       </div>
     </div>
   </section>
