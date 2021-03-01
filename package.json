@@ -28,7 +28,8 @@
     "eslint-plugin-vue": "7.6.0",
     "prettier": "2.2.1",
     "vite": "2.0.3",
-    "vite-plugin-components": "0.7.3",
+    "vite-plugin-components": "0.7.5",
+    "vite-plugin-icons": "^0.3.2",
     "vite-plugin-vue2": "1.2.1",
     "vite-plugin-windicss": "0.5.4"
   },

@@ -16,7 +16,7 @@
         class="inline-flex items-center mt-3 text-green-500"
       >
         Learn More
-        <IconArrow />
+        <mdi-arrow-right class="ml-1" />
       </a>
     </div>
   </div>
