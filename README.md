@@ -73,6 +73,6 @@ npm run build
 
 And you will see the generated files in `dist`, which are ready to be served.
 
-## Why
+# Why
 
 Vue 3 is awesome, but we should not forget about supporting Vue 2 ♥️
