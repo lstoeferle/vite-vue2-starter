@@ -16,9 +16,9 @@
           Oops, looks like you got kidnapped by aliens.
         </p>
         <div class="flex justify-center">
-          <router-link :to="{ name: 'Home' }">
+          <RouterLink :to="{ name: 'Home' }">
             <ButtonPrimary> Bring me back Home </ButtonPrimary>
-          </router-link>
+          </RouterLink>
         </div>
       </div>
     </div>
