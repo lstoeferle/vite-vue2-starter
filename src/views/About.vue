@@ -19,7 +19,7 @@
             <button
               class="inline-flex items-center px-6 py-2 text-lg text-white bg-black border-0 rounded focus:outline-none hover:bg-gray-900"
             >
-              <IconGithub /> &nbsp;GitHub
+              <MdiGithub /> &nbsp;GitHub
             </button>
           </a>
         </div>
