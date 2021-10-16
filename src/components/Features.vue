@@ -23,13 +23,6 @@
       </div>
       <div class="w-full p-2 md:w-1/2 lg:w-1/4">
         <Feature
-          title="vite-plugin-components"
-          text="On demand components auto importing for Vite"
-          url="https://github.com/antfu/vite-plugin-components"
-        />
-      </div>
-      <div class="w-full p-2 md:w-1/2 lg:w-1/4">
-        <Feature
           title="vite-plugin-windicss"
           text="Windi CSS for Vite"
           url="https://github.com/windicss/vite-plugin-windicss"
@@ -37,9 +30,16 @@
       </div>
       <div class="w-full p-2 md:w-1/2 lg:w-1/4">
         <Feature
-          title="vite-plugin-icons"
+          title="unplugin-components"
+          text="On demand components auto importing for Vite"
+          url="https://github.com/antfu/unplugin-vue-components"
+        />
+      </div>
+      <div class="w-full p-2 md:w-1/2 lg:w-1/4">
+        <Feature
+          title="unplugin-icons"
           text="Access thousands of icons as Vue components in Vite"
-          url="https://github.com/antfu/vite-plugin-icons"
+          url="https://github.com/antfu/unplugin-icons"
         />
       </div>
     </div>
