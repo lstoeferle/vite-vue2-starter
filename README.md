@@ -1,10 +1,10 @@
-<h1 style="text-align: center">Vite ⚡ - Vue 2 starter template</h1>
+<h1 align="center">Vite ⚡ - Vue 2 starter template</h1>
 
-<p style="text-align: center">
+<p align="center">
   Create a Vue 2 application bundled by the lightning fast build tool <a href="https://github.com/vitejs/vite">Vite</a>
 </p>
 
-<p style="text-align: center">
+<p align="center">
  <a href="https://vite-vue2-starter.netlify.app"> ✨ Live Demo</a>
 </p>
 
