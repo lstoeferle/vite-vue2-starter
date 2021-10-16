@@ -1,10 +1,10 @@
-<h1 align="center">Vite ⚡ - Vue 2 starter template</h1>
+<h1 style="text-align: center">Vite ⚡ - Vue 2 starter template</h1>
 
-<p align="center">
+<p style="text-align: center">
   Create a Vue 2 application bundled by the lightning fast build tool <a href="https://github.com/vitejs/vite">Vite</a>
 </p>
 
-<p align="center">
+<p style="text-align: center">
  <a href="https://vite-vue2-starter.netlify.app"> ✨ Live Demo</a>
 </p>
 
@@ -51,7 +51,7 @@ If you prefer to do it manually with a cleaner git history
 ```bash
 npx degit lstoeferle/vite-vue2-windicss-starter my-vite-vue2-app
 cd my-vite-vue2-app
-npm i
+yarn install
 ```
 
 # Usage
@@ -61,7 +61,7 @@ npm i
 Just run and visit [http://localhost:8080](http://localhost:8080)
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ## Build
@@ -69,7 +69,7 @@ npm run dev
 To build the App, run
 
 ```bash
-npm run build
+yarn build
 ```
 
 And you will see the generated files in `dist`, which are ready to be served.
