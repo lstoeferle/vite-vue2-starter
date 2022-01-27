@@ -16,7 +16,7 @@
 * 📦 [Components auto importing](https://github.com/antfu/unplugin-vue-components)
 * 😃 [Icons as Vue components](https://github.com/antfu/unplugin-icons) - powered by [Iconify](https://github.com/iconify/iconify)
 * 🧰 [VueUse](https://github.com/vueuse/vueuse) - collection of essential Vue Composition Utilities
-* 🔍 ESLint + Prettier
+* 🔍 ESLint
 * 🦾 Typescript
 
 # 📦 Vite plugins
