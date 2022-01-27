@@ -4,34 +4,28 @@
     "postinstall": "husky install",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint './src/**/*.{js,ts,tsx,vue,md}'",
-    "lint:fix": "eslint './src/**/*.{js,ts,tsx,vue,md}' --fix"
+    "lint": "eslint \"**/*.{vue,ts,js}\"",
+    "lint:fix": "eslint \"**/*.{vue,ts,js}\" --fix"
   },
   "dependencies": {
-    "@vue/composition-api": "^1.2.4",
-    "@vueuse/core": "^6.5.3",
-    "core-js": "^3.18.3",
+    "@vue/composition-api": "^1.4.4",
+    "@vueuse/core": "^7.5.5",
+    "core-js": "^3.20.3",
     "vue": "^2.6.14",
-    "vue-demi": "^0.11.4",
-    "vue-router": "^3.5.2"
+    "vue-demi": "^0.12.1",
+    "vue-router": "^3.5.3"
   },
   "devDependencies": {
-    "@iconify/json": "^1.1.415",
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "@vue/eslint-config-typescript": "^8.0.0",
-    "eslint": "^8.0.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^7.19.1",
-    "husky": "^7.0.2",
-    "prettier": "2.2.1",
-    "typescript": "^4.4.4",
-    "unplugin-icons": "^0.12.16",
-    "unplugin-vue-components": "^0.15.6",
-    "vite": "^2.6.7",
-    "vite-plugin-vue2": "^1.9.0",
-    "vite-plugin-windicss": "^1.4.11",
+    "@antfu/eslint-config": "^0.16.0",
+    "@iconify/json": "^2.0.29",
+    "eslint": "^8.7.0",
+    "husky": "^7.0.4",
+    "typescript": "^4.5.5",
+    "unplugin-icons": "^0.13.0",
+    "unplugin-vue-components": "^0.17.14",
+    "vite": "^2.7.13",
+    "vite-plugin-vue2": "^1.9.3",
+    "vite-plugin-windicss": "^1.6.3",
     "vue-template-compiler": "^2.6.14"
   }
 }

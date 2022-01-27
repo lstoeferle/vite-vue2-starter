@@ -1,16 +1,16 @@
-import Vue from "vue";
-import App from "@/App.vue";
-import { createApp, h } from "vue-demi";
+import Vue from 'vue'
+import { createApp, h } from 'vue-demi'
+import App from '@/App.vue'
 
-import "windi.css";
-import router from "@/router";
+import 'windi.css'
+import router from '@/router'
 
-Vue.config.productionTip = false;
-Vue.config.devtools = true;
+Vue.config.productionTip = false
+Vue.config.devtools = true
 
 const app = createApp({
   router,
   render: () => h(App),
-});
+})
 
-app.mount("#app");
+app.mount('#app')

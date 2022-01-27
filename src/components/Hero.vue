@@ -7,7 +7,7 @@
         class="object-cover object-center rounded"
         alt="Vue logo"
         src="@/assets/vue-logo.svg"
-      />
+      >
     </div>
     <div
       class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left"

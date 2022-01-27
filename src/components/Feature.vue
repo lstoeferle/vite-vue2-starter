@@ -23,14 +23,14 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue-demi";
+import { defineComponent } from 'vue-demi'
 
 export default defineComponent({
-  name: "Feature",
+  name: 'Feature',
   props: {
     title: { type: String, required: true },
     text: { type: String, required: true },
     url: { type: String, required: true },
   },
-});
+})
 </script>
