@@ -14,31 +14,45 @@
       </p>
     </div>
     <div class="flex flex-wrap -m-2">
-      <div class="w-full p-2 md:w-1/2 lg:w-1/4">
+      <div class="w-full p-2 md:w-1/2 lg:w-1/3">
         <Feature
-          title="vite-plugin-vue2"
+          title="⚡️ vite-plugin-vue2"
           text="Vue 2 support for Vite"
           url="https://github.com/underfin/vite-plugin-vue2"
         />
       </div>
-      <div class="w-full p-2 md:w-1/2 lg:w-1/4">
+      <div class="w-full p-2 md:w-1/2 lg:w-1/3">
         <Feature
-          title="vite-plugin-windicss"
-          text="Windi CSS for Vite"
-          url="https://github.com/windicss/vite-plugin-windicss"
+          title="🔥 unplugin-vue2-script-setup"
+          text="Syntax support for the new script setup"
+          url="https://github.com/antfu/unplugin-vue2-script-setup"
         />
       </div>
-      <div class="w-full p-2 md:w-1/2 lg:w-1/4">
+      <div class="w-full p-2 md:w-1/2 lg:w-1/3">
         <Feature
-          title="unplugin-components"
-          text="On demand components auto importing for Vite"
+          title="📦 unplugin-components"
+          text="Importing Vue components on-demand"
           url="https://github.com/antfu/unplugin-vue-components"
         />
       </div>
-      <div class="w-full p-2 md:w-1/2 lg:w-1/4">
+      <div class="w-full p-2 md:w-1/2 lg:w-1/3">
         <Feature
-          title="unplugin-icons"
-          text="Access thousands of icons as Vue components in Vite"
+          title="📥 unplugin-auto-import"
+          text="Importing APIs like CompositionAPI on-demand"
+          url="https://github.com/antfu/unplugin-auto-import"
+        />
+      </div>
+      <div class="w-full p-2 md:w-1/2 lg:w-1/3">
+        <Feature
+          title="🎨 vite-plugin-windicss"
+          text="Easy WindiCSS integration"
+          url="https://github.com/windicss/vite-plugin-windicss"
+        />
+      </div>
+      <div class="w-full p-2 md:w-1/2 lg:w-1/3">
+        <Feature
+          title="😃 unplugin-icons"
+          text="Importing icons as Vue components on-demand"
           url="https://github.com/antfu/unplugin-icons"
         />
       </div>

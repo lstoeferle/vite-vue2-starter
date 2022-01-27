@@ -16,14 +16,14 @@
         class="flex flex-wrap items-center justify-center text-base md:ml-auto"
       >
         <RouterLink
-          v-for="(route, index) in routes"
+          v-for="(route, index) in availableRoutes"
           :key="index"
           class="mr-5 font-semibold cursor-pointer"
           :class="{
             'text-green-500 hover:green-500 dark:text-green-500 dark:hover:text-green-500 underline':
-              route.name === currentRoute,
+              route.name === currentRoute.name,
             'hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200':
-              route.name !== currentRoute,
+              route.name !== currentRoute.name,
           }"
           :to="{ name: route.name }"
         >
@@ -54,23 +54,15 @@
   </header>
 </template>
 
-<script lang="ts">
-import { computed, defineComponent } from 'vue-demi'
-import { useDark, useToggle } from '@vueuse/core'
+<script setup lang="ts">
 import { routes } from '@/router'
 
-export default defineComponent({
-  setup: (_, ctx) => {
-    // Import config from .evn
-    const appName = import.meta.env.VITE_APP_NAME
+// Import config from .env
+const appName = import.meta.env.VITE_APP_NAME
 
-    const availableRoutes = routes.filter(route => route.name !== 'NotFound')
-    const currentRoute = computed(() => ctx.root.$route.name)
+const availableRoutes = routes.filter(route => route.name !== 'NotFound')
+const currentRoute = computed(() => getCurrentInstance()?.proxy?.$route)
 
-    const isDark = useDark()
-    const toggle = useToggle(isDark)
-
-    return { appName, routes: availableRoutes, currentRoute, toggle, isDark }
-  },
-})
+const isDark = useDark()
+const toggle = useToggle(isDark)
 </script>

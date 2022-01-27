@@ -1,4 +1,3 @@
-import type { VNode } from 'vue'
 import type Vue from 'vue'
 
 declare global {
