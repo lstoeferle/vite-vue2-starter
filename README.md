@@ -56,7 +56,7 @@ yarn install
 
 ### Development
 
-Just run and visit [http://localhost:8080](http://localhost:3333)
+Just run and visit [http://localhost:3333](http://localhost:3333)
 
 ```bash
 yarn dev
