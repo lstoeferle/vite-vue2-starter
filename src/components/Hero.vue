@@ -17,15 +17,9 @@
         This example project shows how to speed up your Vue 2 application with
         the next generation frontend tooling Vite.
       </p>
-      <div class="flex justify-center">
-        <a href="https://vuejs.org/v2/guide/" target="_blank">
-          <ButtonPrimary> Vue docs </ButtonPrimary>
-        </a>
-
-        <RouterLink :to="{ name: 'About' }">
-          <ButtonSecondary> About </ButtonSecondary>
-        </RouterLink>
-      </div>
+      <a href="https://vuejs.org/v2/guide/" target="_blank">
+        <ButtonPrimary> Vue docs </ButtonPrimary>
+      </a>
     </div>
   </section>
 </template>
