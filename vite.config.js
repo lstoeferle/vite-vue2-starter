@@ -36,7 +36,6 @@ const config = defineConfig({
     AutoImport({
       imports: [
         '@vue/composition-api',
-        'vue-router',
         '@vueuse/core',
       ],
       dts: 'src/auto-imports.d.ts',
