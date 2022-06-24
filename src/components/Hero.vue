@@ -6,7 +6,7 @@
       <img
         class="object-cover object-center rounded"
         alt="Vue logo"
-        src="/@/assets/vue-logo.svg"
+        src="../assets/vue-logo.svg"
       >
     </div>
     <div

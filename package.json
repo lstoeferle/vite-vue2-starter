@@ -8,26 +8,24 @@
     "lint:fix": "eslint \"**/*.{vue,ts,js}\" --fix"
   },
   "dependencies": {
-    "@vue/composition-api": "^1.6.1",
     "@vueuse/core": "^8.5.0",
     "core-js": "^3.21.1",
-    "vue": "^2.7.0-beta.5",
+    "vue": "^2.7.0-beta.7",
     "vue-router": "^3.5.3"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.18.8",
     "@iconify/json": "^2.1.14",
     "@vitejs/plugin-vue2": "^1.1.0",
-    "@vue/runtime-dom": "^3.2.31",
     "eslint": "^8.10.0",
     "husky": "^7.0.4",
     "typescript": "^4.6.2",
     "unplugin-auto-import": "^0.9.1",
-    "unplugin-icons": "^0.13.3",
+    "unplugin-icons": "^0.14.5",
     "unplugin-vue-components": "^0.19.9",
     "vite": "^2.8.6",
     "vite-plugin-windicss": "^1.8.3",
-    "vue-template-compiler": "^2.7.0-beta.5",
+    "vue-template-compiler": "^2.7.0-beta.7",
     "vue-template-es2015-compiler": "^1.9.1"
   }
 }
