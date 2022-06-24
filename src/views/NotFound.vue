@@ -6,7 +6,7 @@
       <img
         class="object-cover object-center w-5/6 mb-10 rounded lg:w-2/6 md:w-3/6"
         alt="hero"
-        src="@/assets/not-found.svg"
+        src="../assets/not-found.svg"
       >
       <div class="w-full text-center lg:w-2/3">
         <Heading1 class="text-red-500 dark:text-red-500">
