@@ -7,7 +7,7 @@
         :to="{ name: 'Home' }"
         class="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0"
       >
-        <img alt="Vite logo" src="../assets/vite-logo.svg" width="36px">
+        <img alt="Vite logo" src="@/assets/vite-logo.svg" width="36px">
         <span class="ml-3 text-xl dark:text-white">
           {{ appName }}
         </span>

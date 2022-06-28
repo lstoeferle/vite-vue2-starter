@@ -11,6 +11,7 @@
 ## Features
 
 * ⚡️ [Vite](https://github.com/vitejs/vite), [Vue 2](https://github.com/vuejs/vue) - lightning fast
+* 📦 [Components auto importing](https://github.com/antfu/unplugin-vue-components)
 * 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
 * 🚦 [Vue-Router](https://github.com/vuejs/vue-router)
 * 🎨 [Windi CSS](https://github.com/windicss/vite-plugin-windicss) - next generation utility-first CSS framework
