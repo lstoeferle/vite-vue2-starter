@@ -12,7 +12,6 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
-      "unplugin-vue2-script-setup/types",
       "@vueuse/core"
     ],
     "paths": {
@@ -37,6 +36,6 @@
     "node_modules"
   ],
   "vueCompilerOptions": {
-    "experimentalCompatMode": 2
+    "target": 2.7
   }
 }

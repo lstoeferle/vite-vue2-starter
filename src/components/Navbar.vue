@@ -55,6 +55,7 @@
 </template>
 
 <script setup lang="ts">
+import { computed, getCurrentInstance } from 'vue'
 import { routes } from '@/router'
 
 // Import config from .env
