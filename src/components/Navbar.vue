@@ -44,7 +44,7 @@
         </a>
         <button
           class="flex items-center justify-center w-9 h-9 focus:outline-none"
-          @click="toggle"
+          @click="toggle()"
         >
           <MdiWhiteBalanceSunny v-if="isDark" class="text-yellow-500" />
           <MdiMoonWaningCrescent v-else class="text-gray-800" />
