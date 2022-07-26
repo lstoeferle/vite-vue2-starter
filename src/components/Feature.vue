@@ -1,3 +1,11 @@
+<script setup lang="ts">
+defineProps({
+  title: { type: String, required: true },
+  text: { type: String, required: true },
+  url: { type: String, required: true },
+})
+</script>
+
 <template>
   <div
     class="flex flex-col h-full p-8 bg-gray-100 rounded-lg items dark:bg-gray-700"
@@ -21,11 +29,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-defineProps({
-  title: { type: String, required: true },
-  text: { type: String, required: true },
-  url: { type: String, required: true },
-})
-</script>

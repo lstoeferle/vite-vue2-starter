@@ -1,3 +1,17 @@
+<script setup lang="ts">
+import { computed, getCurrentInstance } from 'vue'
+import { routes } from '@/router'
+
+// Import config from .env
+const appName = import.meta.env.VITE_APP_NAME
+
+const availableRoutes = routes.filter(route => route.name !== 'NotFound')
+const currentRoute = computed(() => getCurrentInstance()?.proxy?.$route)
+
+const isDark = useDark()
+const toggle = useToggle(isDark)
+</script>
+
 <template>
   <header class="text-gray-600 body-font dark:bg-gray-800">
     <div
@@ -53,17 +67,3 @@
     </div>
   </header>
 </template>
-
-<script setup lang="ts">
-import { computed, getCurrentInstance } from 'vue'
-import { routes } from '@/router'
-
-// Import config from .env
-const appName = import.meta.env.VITE_APP_NAME
-
-const availableRoutes = routes.filter(route => route.name !== 'NotFound')
-const currentRoute = computed(() => getCurrentInstance()?.proxy?.$route)
-
-const isDark = useDark()
-const toggle = useToggle(isDark)
-</script>
