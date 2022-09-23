@@ -25,9 +25,9 @@
   Vue 2 support for Vite
 * [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) -
   importing Vue components on-demand
-* [`unplugin-unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) -
+* [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) -
   importing APIs like CompositionAPI on-demand
-* [`vite-plugin-windicss`](https://github.com/windicss/vite-plugin-windicss) - 
+* [`vite-plugin-windicss`](https://github.com/windicss/vite-plugin-windicss) -
   easy WindiCSS integration
 * [`unplugin-icons`](https://github.com/antfu/unplugin-icons) -
   importing icons as Vue components on-demand
@@ -39,7 +39,7 @@
 
 [Create a repo from this template on GitHub](https://github.com/lstoeferle/vite-vue2-windicss-starter/generate)
 
-### Clone 
+### Clone
 
 If you prefer to do it manually with a cleaner git history
 
