@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from '@/App.vue'
 
-import 'windi.css'
+import 'virtual:windi.css'
 import router from '@/router'
 
 Vue.config.productionTip = false
