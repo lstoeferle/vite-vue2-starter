@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import { computed, getCurrentInstance } from 'vue'
+import { useRoute } from 'vue-router/composables'
 import { routes } from '@/router'
 
 // Import config from .env
 const appName = import.meta.env.VITE_APP_NAME
 
+const currentRoute = useRoute()
+
 const availableRoutes = routes.filter(route => route.name !== 'NotFound')
-const currentRoute = computed(() => getCurrentInstance()?.proxy?.$route)
 
 const isDark = useDark()
 const toggle = useToggle(isDark)
