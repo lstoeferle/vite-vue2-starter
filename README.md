@@ -1,12 +1,6 @@
-<h1 align="center">Vite ⚡ - Vue 2 starter template</h1>
+# Vite ⚡ - Vue 2 starter template
 
-<p align="center">
-  Create a Vue 2 application bundled by the lightning fast build tool <a href="https://github.com/vitejs/vite">Vite</a>
-</p>
-
-<p align="center">
- <a href="https://vite-vue2-starter.netlify.app"> ✨ Live Demo</a>
-</p>
+Create a Vue 2 application bundled by the lightning fast build tool <a href="https://github.com/vitejs/vite">Vite</a>
 
 > [!WARNING]
 > Vue 2 has reached EOL and is no longer actively maintained. [Upgrade to Vue 3](https://vuejs.org/) 
