@@ -14,7 +14,7 @@
 * 📦 [Components auto importing](https://github.com/antfu/unplugin-vue-components)
 * 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
 * 🚦 [Vue-Router](https://github.com/vuejs/vue-router)
-* 🎨 [Windi CSS](https://github.com/windicss/vite-plugin-windicss) - next generation utility-first CSS framework
+* 🎨 [TailwindCSS](https://tailwindcss.com/)
 * 😃 [Use icons from any icon sets, with no compromise](https://github.com/antfu/unplugin-icons)
 * 🧰 [VueUse](https://github.com/vueuse/vueuse) - Collection of essential Vue Composition Utilities
 * 🦾 Typescript, of course
@@ -27,8 +27,6 @@
   importing Vue components on-demand
 * [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) -
   importing APIs like CompositionAPI on-demand
-* [`vite-plugin-windicss`](https://github.com/windicss/vite-plugin-windicss) -
-  easy WindiCSS integration
 * [`unplugin-icons`](https://github.com/antfu/unplugin-icons) -
   importing icons as Vue components on-demand
 
@@ -37,14 +35,14 @@
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/lstoeferle/vite-vue2-windicss-starter/generate)
+[Create a repo from this template on GitHub](https://github.com/lstoeferle/vite-vue2-starter/generate)
 
 ### Clone
 
 If you prefer to do it manually with a cleaner git history
 
 ```bash
-npx degit lstoeferle/vite-vue2-windicss-starter my-vite-vue2-app
+npx degit lstoeferle/vite-vue2-starter my-vite-vue2-app
 cd my-vite-vue2-app
 pnpm install
 ```

@@ -21,7 +21,7 @@ const toggle = useToggle(isDark)
         :to="{ name: 'Home' }"
         class="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0"
       >
-        <img alt="Vite logo" src="@/assets/vite-logo.svg" width="36px">
+        <img alt="Vite logo" src="@/assets/img/vite-logo.svg" width="36px">
         <span class="ml-3 text-xl dark:text-white">
           {{ appName }}
         </span>
@@ -50,7 +50,7 @@ const toggle = useToggle(isDark)
           <MdiAlien />
         </RouterLink>
         <a
-          href="https://github.com/lstoeferle/vite-vue2-windicss-starter"
+          href="https://github.com/lstoeferle/vite-vue2-starter"
           target="_blank"
           class="flex items-center justify-center mr-2 text-black w-9 h-9 dark:text-white"
         >
