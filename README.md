@@ -8,6 +8,10 @@
  <a href="https://vite-vue2-starter.netlify.app"> ✨ Live Demo</a>
 </p>
 
+> [!WARNING]
+> Vue 2 has reached EOL and is no longer actively maintained. [Upgrade to Vue 3](https://vuejs.org/) 
+> or learn more about [Vue 2 EOL](https://v2.vuejs.org/eol/).
+
 ## Features
 
 * ⚡️ [Vite](https://github.com/vitejs/vite), [Vue 2](https://github.com/vuejs/vue) - lightning fast
