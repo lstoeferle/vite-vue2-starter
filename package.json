@@ -4,8 +4,8 @@
     "postinstall": "husky install",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint \"**/*.{vue,ts,js}\"",
-    "lint:fix": "eslint \"**/*.{vue,ts,js}\" --fix"
+    "lint": "eslint --ext .vue,.ts,.js",
+    "lint:fix": "eslint --ext .vue,.ts,.js --fix"
   },
   "dependencies": {
     "@vueuse/core": "^9.13.0",

@@ -46,7 +46,7 @@ If you prefer to do it manually with a cleaner git history
 ```bash
 npx degit lstoeferle/vite-vue2-windicss-starter my-vite-vue2-app
 cd my-vite-vue2-app
-yarn install
+pnpm install
 ```
 
 ## Usage
@@ -56,7 +56,7 @@ yarn install
 Just run and visit [http://localhost:3333](http://localhost:3333)
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 ### Build
@@ -64,7 +64,7 @@ yarn dev
 To build the App, run
 
 ```bash
-yarn build
+pnpm build
 ```
 
 And you will see the generated files in `dist`, which are ready to be served.
